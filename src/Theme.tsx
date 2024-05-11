@@ -1,6 +1,6 @@
 import { createTheme, responsiveFontSizes } from "@mui/material/styles";
 
-let Theme = createTheme({
+let theme = createTheme({
   palette: {
     primary: {
       main: "#4B72A6",
@@ -14,6 +14,6 @@ let Theme = createTheme({
   },
 });
 
-Theme = responsiveFontSizes(Theme);
+theme = responsiveFontSizes(theme);
 
-export default Theme;
+export default theme;
